@@ -1,8 +1,8 @@
 ## Dev-mt-in
 
-__A note to students and employers__
+<!-- __A note to students and employers__
 
-This is an Intern Project.  What that means is that it is structure to look like what an intern might receive on the job.  You will find in this document:
+This is an Intern Project.  What that means is that it is structured to look like what an intern might receive on the job.  You will find in this document:
 * Design files of what the project should look like
 * Requirements, separated by day, of what the project should be able to do.
 
@@ -10,7 +10,7 @@ That is all.  You will receive no instructions.
 
 Your mentors have been asked to provide only minimal guidance. They can point you in the right direction, but cannot help you code.  Similar to how an intern might receive guidance.  This project is a chance for you to combine and showcase the skills you've learned so far.  
 
-With this guidance only structure we believe this project will showcase what you can do as an individual at this point of the program. 
+With this guidance-only structure we believe this project will showcase what you can do as an individual at this point of the program. 
 Because of this we feel this project will be worth putting in your portfolio.
 
 Good luck and work hard!
@@ -28,30 +28,30 @@ These are located in the images folder in this project.
 ![Application Design](https://github.com/DevMountain/dev-mt-in/blob/master/images/DevMtn-Social-app.jpg?raw=true, "Application Design")
 ![Color Palette](https://github.com/DevMountain/dev-mt-in/blob/master/images/ColorPalette.jpg?raw=true, "Color Palette")
 ![Fonts](https://github.com/DevMountain/dev-mt-in/blob/master/images/Fonts.jpg?raw=true, "Fonts")
-![Text Styles](https://github.com/DevMountain/dev-mt-in/blob/master/images/TextStyles.jpg?raw=true, "Text Styles")
+![Text Styles](https://github.com/DevMountain/dev-mt-in/blob/master/images/TextStyles.jpg?raw=true, "Text Styles") -->
 
 
 ## Day 1:
 __Bottom Nav__
-* Navigation is controlled at the bottom of the screen
-* User can navigate between `View Friends` `Find Friends` and `Update Profile`
-* Currently focused 'page' is underlined
+<!-- * Navigation is controlled at the bottom of the screen -->
+<!-- * User can navigate between `View Friends` `Find Friends` and `Update Profile` -->
+<!-- * Currently focused 'page' is underlined -->
 
 __Entry View__
-* Entry view is seen when the user first enters the application
-* User is prompted to add data when the first enter the application
-* User can add Full-name, tagline, bio, and profile pic URL
+<!-- * Entry view is seen when the user first enters the application -->
+<!-- * User is prompted to add data when they first enter the application -->
+<!-- * User can add Full-name, tagline, bio, and profile pic URL -->
 * User can save changes
-* After saving changes user is taken to the Landing Page
+<!-- * After saving changes user is taken to the Landing Page -->
 * Entry View looks like provided screen shots
 
 __Landing Page__
-* User sees their name
-* User sees their tagline
-* User sees their bio
+<!-- * User sees their name -->
+<!-- * User sees their tagline -->
+<!-- * User sees their bio -->
 
 __Update Profile__
-* User can change their fullname, tagline, profile pic, and bio
+<!-- * User can change their fullname, tagline, profile pic, and bio -->
 
 
 ## Day 2:

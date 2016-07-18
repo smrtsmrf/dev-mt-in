@@ -1,0 +1,26 @@
+<header id="header" class="">
+	<div>
+		<img src="/images/icons/Search.svg" alt="">
+	</div>
+	<div>
+		DevMountain
+	</div>
+	<div>
+		<img src="/images/icons/Ham.svg" alt="">
+	</div>
+</header><!-- /header -->
+
+<section id="entry">
+	<div id="entry-info">
+		<p>Welcome to <a target="_blank" href="https://www.devmounta.in">DevMountain</a> Social <br>Add some info so friends can find you </p>
+		<input ng-model="$root.name" placeholder="Full Name" autofocus>
+		<input ng-model="$root.tagline" placeholder="Tagline">
+		<input ng-model="$root.imgUrl" placeholder="Profile Image Url">
+		<textarea rows="10" cols="50" id="bio" ng-model="$root.bio" placeholder="Bio"></textarea>
+		<button ng-click="save()" id="save" ng-disabled="!name || !tagline || !imgUrl || !bio">Save Changes</button>
+	</div>
+	<div id="image">
+		<div id="front-triangle"></div>
+		<div id="back-triangle"></div>
+	</div>
+</section>

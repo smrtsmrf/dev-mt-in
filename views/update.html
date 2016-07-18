@@ -1,0 +1,30 @@
+<header id="header" class="">
+	<div>
+		<img src="/images/icons/Back-Arrow.svg" alt="">
+	</div>
+	<div>
+		DevMountain
+	</div>
+	<div>
+		<img src="/images/icons/Ham.svg" alt="">
+	</div>
+</header><!-- /header -->
+
+
+<section id="update">
+	<div id="current-info">
+		<h1>{{name}}</h1>
+		<p>{{tagline | uppercase}}</p>
+		<p>{{bio}}</p>
+	</div>
+	<div id="update-info">
+		<div id="settings">
+			<p>Profile Settings</p>
+			<input ng-model="$root.name" placeholder="Full Name" autofocus> <br>
+			<input ng-model="$root.tagline" placeholder="Tagline"> <br>
+			<input ng-model="$root.imgUrl" placeholder="Profile Image Url"> <br>
+			<textarea rows="10" cols="30" id="bio" ng-model="$root.bio" placeholder="Bio"></textarea> <br>
+			<button ng-click="save()" id="save" ng-disabled="!name || !tagline || !imgUrl || !bio">Save Changes</button>
+		</div>
+	</div>
+</section>
